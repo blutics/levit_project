@@ -46,5 +46,5 @@ services:
 
 volumes:
   venv:
-  chrome_profile:
   uv_cache:
+  chrome_profile:

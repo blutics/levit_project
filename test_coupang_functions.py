@@ -3,8 +3,6 @@ from unittest import TestCase
 import requests
 
 import coupang_functions as cf
-from remote_playwright import BrowserClient, CDP_URL
-
 
 class Test(TestCase):
     def test_get_items(self):

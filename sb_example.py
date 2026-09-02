@@ -54,20 +54,31 @@ with sync_playwright() as p:
     for kd in keywords[::][:]:
         # page.goto(f_search_url.format(kd))
 
-        page.goto("https://www.coupang.com")
+        page.goto(
+            "https://www.coupang.com",
+            wait_until="domcontentloaded",
+            timeout=30_000,)
         page.wait_for_timeout(5000)
-
-        search_input = page.query_selector("input.headerSearchKeyword")
+        print(page.url)
+        search_input = page.query_selector("form#wa-search-form input.headerSearchKeyword")
         for k in kd:
             search_input.type(k)
             t = random.uniform(0.2, 0.6)
             time.sleep(t)
         # page.keyboard.press("Enter")
-        btn = page.query_selector("form button.headerSearchBtn")
+        print(page.url)
+
+        btn = page.locator("form button.headerSearchBtn:visible").first
+
+        btn.wait_for(state="visible")
+        btn.scroll_into_view_if_needed()
         btn.click()
+        print(page.url)
+        # btn = page.query_selector("form button.headerSearchBtn")
+        # btn.click()
 
         page.wait_for_timeout(5000)
-
+        print(page.url)
         html = page.content()
         items = cf.parse_search(html)
 
