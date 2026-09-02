@@ -1,12 +1,22 @@
 [project]
 name = "levit-project"
 version = "0.1.0"
-requires-python = ">=3.13"
+requires-python = "==3.13.15"
 dependencies = [
+    "browserforge>=1.2.4",
     "bs4>=0.0.2",
+    "curl-cffi>=0.16.2",
     "fake-useragent>=2.2.0",
+    "httpx[http2]>=0.28.1",
+    "msgspec>=0.21.1",
+    "nodriver>=0.50.3",
+    "patchright>=1.62.2",
+    "playwright>=1.62.0",
+    "pycurl>=7.47.0",
     "requests>=2.34.2",
+    "scrapling>=0.4.15",
     "selenium>=4.48.0",
+    "seleniumbase>=4.53.1",
     "setuptools>=84.0.0",
     "undetected-chromedriver>=3.5.5",
 ]

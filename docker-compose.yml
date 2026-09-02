@@ -1,0 +1,50 @@
+services:
+  crawler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: coupang-crawler
+
+    init: true
+    shm_size: "2gb"
+    working_dir: /app
+
+    volumes:
+      - .:/app
+      - venv:/app/.venv
+      - chrome_profile:/data/chrome_profile
+      - uv_cache:/root/.cache/uv
+
+    environment:
+      PYTHONUNBUFFERED: "1"
+      PROFILE_DIR: /data/chrome_profile
+      UV_PYTHON: "3.13.15"
+      DISPLAY: ":99"
+
+    command:
+      - sh
+      - -c
+      - |
+        rm -f /tmp/.X99-lock
+        rm -f /tmp/.X11-unix/X99
+
+        Xvfb :99 -screen 0 1920x1080x24 -nolisten tcp &
+
+        echo "Waiting for Xvfb..."
+
+        while [ ! -S /tmp/.X11-unix/X99 ]; do
+          sleep 0.1
+        done
+
+        echo "Xvfb ready"
+        echo "DISPLAY=$DISPLAY"
+
+        exec uv run python -u sb_example_2.py
+
+    restart: "no"
+
+volumes:
+  venv:
+  chrome_profile:
+  uv_cache:

@@ -1,0 +1,47 @@
+{
+  "site": "coupang",
+  "created_at": "2026-09-01T22:55:29.260324",
+  "headers": {},
+  "cookies": [
+    {
+      "name": "__Secure-STRP",
+      "value": "ANmZwa1iwbnP0kAjKIDwzHeT945Ryz2niEPoBt_3k3c2RimBX43ha2BbDg59A4nAAtV4xKIYBjrfxw7gv6SZ919bKNL8vRpieKjf",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1788271228.779861,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "SEARCH_SAMESITE",
+      "value": "CgQI2aEB",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1803822928.780029,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "AEC",
+      "value": "AdJVEavSbPHW-JUQva5pg0dtW6ufuTzobU4JiSjwKTRlAmUlA7Q-ieYrlA",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1803822928.780057,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "534=r7gSbtr9Q47NL-nRq7ZIrRUTlBYSkiOZRij0bJTrEXfLBQuc1uJFt7mHI487BrdZPR1VErWo9ov2gACXW86zAhQpLpswJ5usvrU4BkmcCZ_Mm4FHzLpWsu-nqcgKyqWHxlVqEhRRvKzKePHy18vDGCr1tUQ46CDCvS94LcFZUIM7TX4P4SidzUOBrTRU37JcQY2gGf94RtiswOHVwiAhVbM",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1804082127.999422,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ]
+}

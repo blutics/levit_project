@@ -1,0 +1,97 @@
+{
+  "site": "coupang",
+  "created_at": "2026-09-01T22:49:25.062284",
+  "headers": {},
+  "cookies": [
+    {
+      "name": "bm_s",
+      "value": "YAAQnKUrF4VCz1qgAQAAwDU7XQbD2gU0qVpJVmRlYdetVrLr236cgZJr0cOkMEr6SIeXMyJMS58VWFYfXOLIeUxZq8Dq/uoAZlwSqb+nwNFond9uhioE7k2RExx7egy4bOLkagwvBkKGmgjQMSN5eZjSzngSn6IHxuDoZT5mDNxHBp/IxHA6UJn9W9vR9LdDwavQaO0DZI5d+QItfhScam2UbMV7LffnwxJCZCiQluSCakPEK/29A0m1YWZfVAjAZOl/j/AfAfv3IL8kaGcdGYqNNgxvnlYayGw+AksGNiMNqnKF4xDutdjgZJnSlEIT7wOtrQWvqGhCN5DxXlHVemYTF+pEpkG9m8Bnqw0a3xPMTF+xiUeHr2i6mX9sFNzg+ie2kvztRH1NjawKW346Bsiu8EXqxtHi7GgnrH8wKc5WpvNaUkD7aqsG4X/bQt0XBFvSy7X6NWsANaF8RsH47qRKQUtXNq8PB+ar/nMXkq32FvkjnkY04GTgkkOh6gItTdwqnaEHD9epVlGDTQhzLxdn3msPqMfB8g/X7D4JW0y9SJ1DVzhF6hOk/GJok+lF7q0wJOAFimpYM8rFPqwpnx94v3Tj7b4jHYGlwYFIQYY5QcHf4oSGY93LSQM/ygF40RyHqSas6xMXrJI0+yUgD9jQlIRQnd2m5cRNIffZ8GWaf7oaEfP1z8xcfPy+8x7EbmKLY1d8O4eF8oo47ws9CCEyyJTtGd7BKs6XomxSoOMw+sqbW/56If7j8QOTpGLbFhuRc8GupqtE8Zj0LP8N9/FnpaiH+z3OE704fT1rsfJ44+/33DAmorTM69HuCaAT7OdmCNHkPIZQBrxOSrkQf/MJSk02h9NQ5LQELbAplOEkKzMglyzm9bi8P7DH+39DKUWwRq6F9ziRWxO602kLKpY76w4PekWpVAG/PVYr5mWNeUVrapdgECHRGswtBZZ+RrGAyowfWaXpwCKWPJ17RfQNB5o1FoWF2tQ=",
+      "domain": ".coupang.com",
+      "path": "/",
+      "expires": 1790948956.619904,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_so",
+      "value": "0B9323C4D325614391AA06881DB47DE2B94CE8CFF5F527E6B5D030F4B57D177B~YAAQnKUrF4ZCz1qgAQAAwDU7XQgN7pR2aytgkH8iVddK57tK2L31+xm/gr0oxm235CEhM6SwOBDskUElaa+d4dYpTxLh5ovCI6VImsJkXDt1XOoLPifPkAP73eRCSCttrfRkjolAjYdi1YndN2g11i2CGbAtHyvo/Vtpca1sM/MPgXhHIk3yudKNQ/7YQAlDPqxfN5gGir7J8W9TtU39Jv6hHj4LnhI9oVssZq+lKyaImhVK+qdGH+EBfIutXUV/G7tzekJIA9uDERRvrgC2I4UhbCrcz/TuM24M3fc+U9zMFKjbPW5dYLLjyOWoDCG640BevSgnT6fMKHhGZRQkgHgVBmKGIyGt6eeRlFsjNj6PIRDq2B0DTrRR6CXKO7T28jwIBwJp/a8MX2Do8bqW/RIR9tla1JKKAzS4m9IKLgR2OK/op1AVWU79GsEhcIlFXd7V71VmKT7MuPBF6CfVpZAEdGQ=",
+      "domain": ".coupang.com",
+      "path": "/",
+      "expires": 1788356956.619939,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sz",
+      "value": "25B3D00B5D98224E5BAFFFC3909EBADA~YAAQnKUrF4dCz1qgAQAAwDU7XQG5KcEdXtKCzqRZcUGpfwLPoQ8kcw6HFjA4/Utch380eG/U0NHWqHbHIY4IozltPzCGhSSBcgzb3QJkxyMn+3X5aDIFXj3eGMTYzKHLGgyEikHjcXoAR8ri1754Lq1p6d6t9knY7kdt6riksrRBplopAG//v+x3+SFJRgHH63Qbdtlq649qHpgf/6PfeyxwR3D/r8LecZ8bqGMk2e1Y2UkIqLZJ1CKTxBFt2O7ld5bdkIy+HwP8gVdyJ0aYvQlzQFTOVDA4W5IO9t6x04NzaeSMsbjAG+WZORzHvFvextGbCSmVPXqW+qfbIGB9/9BRM0EB8U6i7VaxkCD2kVjcThyfjbaxm9CYZIVnkSGBsNznIAV5OUVscPhXYaroiw==~3289141~4272193",
+      "domain": ".coupang.com",
+      "path": "/",
+      "expires": 1788284956.619969,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1452870627.1788270557",
+      "domain": ".coupang.com",
+      "path": "/",
+      "expires": 1822830556.919223,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1439919759.1788270557",
+      "domain": ".coupang.com",
+      "path": "/",
+      "expires": 1788356956,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".coupang.com",
+      "path": "/",
+      "expires": 1788270616,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_MM7Y29P0HZ",
+      "value": "GS2.2.s1788270557$o1$g0$t1788270557$j60$l0$h0",
+      "domain": ".coupang.com",
+      "path": "/",
+      "expires": 1822830557.338657,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "6AEB3704CB0AAFEF0302F033180A1680~000000000000000000000000000000~YAAQnKUrF/NFz1qgAQAASzk7XQHJHWmtY0YepVlYky1I223RakaSegHMWUgGgAaYoZUTOIwBalo//J8sNcKXJdiaHQZcgh2uSUzgdwncWJ0lTwg00N0yudEKEZCTDNJuRMr6KA+U3ONx0cMGdd2hFjtWNvqUdPHHQ1lZFDIRc+fHha2e4A0/bCXXWPsNQQzuf3S/0V4VjBTZiPaolWpzLtx181kW/eRoxXOj/zpo2/+IEMs/VmSrZNXCMCBK+cc7nOQYg2UpXFROlfzhqmhquWfF5E8OtJhpClVgHpVr6kciA/NStbKl6ewFd+t59bfue923XzmTCPYLvJH+8YdzDyCfVsRu3lDnSS/3WFfjnHQP17KP9byc1zcM+H/V/9IhICNNMqdzn0922EY9I3baz246gm2kzU6IM5XsNylCv7ZiyIfANcwxXBZTTVbkLVPIq0l5f3yV9EZD5oOgbk05lA==",
+      "domain": ".coupang.com",
+      "path": "/",
+      "expires": 1788277756.540615,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_abck",
+      "value": "00DD634E902E13E46489D2C00708544C~-1~YAAQnKUrF+tJz1qgAQAAAT47XRCBHikvDVBMXKNPdjU1qWeMEZuluuL8Zyj9Nksp5KZzOAgN0vI7MJHUfexCWZWLGHc9lEnkNN3/1xFNOwcpBvhFkD/WzN88WO1WoPTXd9ZBJA91EBpvb5WQDMyGrxD7dVIsNaaej41YNlztOauRXplnFLHk+pJMk71xlTgi3jqWvOBg7o7M7ns9bgvr9ViMiWoZK/JZl0gjcSN7wNgPr3StbD/GyNHR7Ta2XeaRulWsH7UAACXnPj3xY4OE6OsOrK90axeP7timpwcaFHpqGJg7NzArrKjJ5A0s2eTaXUUjgISLHiNKsNkEcsPYAc00bKa3DdVGBgxHWkSH8Oto4K6Fby/kf8qET04Aaj8euwUCkTgLo9HlVRAEFzjy8T3CTN4zW3zatBx9tiXEoEI891txGuYZK28QdBp363Mkl4KOhhPk+8NZP50oZS6SIZNWYeCXq41hdogDpsfwitxwzODtBQKaPkdqytjJPT4n/wMNQx0oPvzf39WRAJW/cE0J9mHzWMCInfVg8WJfkwAPi1BWjfAhTfZk9oCMxZ5ONtY/VPMguhBPRWzl/0/2q38HTjCzaJ1xXmBRL2Ik~-1~-1~1788274157~AAQAAAAG%2f%2f%2f%2f%2fy2Z5u2q3eYCijVMiNL%2fOfztCVbghssHjPl2r0riGEGJpzLPFPl3rgFnjXXCotSHkkvVheeMa7qor7Wb++wCUDlcCxF2uqHbuOOO~-1",
+      "domain": ".coupang.com",
+      "path": "/",
+      "expires": 1819806558.768101,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ]
+}
